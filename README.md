@@ -18,7 +18,7 @@ Unfortunately, my peer group is inactive, so I decided to focus on my part and c
 Technologies Used 🛠️
 - HTML
 - CSS
-- JavaScript (if applicable)
+
 
 ## Contact 📩
 
