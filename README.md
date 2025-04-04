@@ -19,7 +19,6 @@ Technologies Used 🛠️
 - HTML
 - CSS
 
-
 ## Contact 📩
 
 Feel free to reach out if you have any feedback or suggestions!
