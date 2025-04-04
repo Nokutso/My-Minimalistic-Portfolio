@@ -1,6 +1,6 @@
-My Portfolio Website 🌐
+#My Portfolio Website 🌐
 
-Welcome to my portfolio website! This project showcases my work, skills, and experience in a clean and responsive design.
+##Welcome to my portfolio website! This project showcases my work, skills, and experience in a clean and responsive design.
 
 Features ✨
 
@@ -12,16 +12,16 @@ Project Context 📝
 
 Unfortunately, my peer group is inactive, so I decided to focus on my part and continue developing this project independently.
 
-Live Preview 🚀
+##Live Preview 🚀
 
-🔗 [Add your website link here]
+🔗 https://nokutso.github.io/portfolio.github.io/ 
 
 Technologies Used 🛠️
-	•	HTML
-	•	CSS
-	•	JavaScript (if applicable)
+• HTML
+• CSS
+• JavaScript (if applicable)
 
-Contact 📩
+##Contact 📩
 
 Feel free to reach out if you have any feedback or suggestions!
 
