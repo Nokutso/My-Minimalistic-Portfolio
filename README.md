@@ -17,9 +17,9 @@ Unfortunately, my peer group is inactive, so I decided to focus on my part and c
 🔗 https://nokutso.github.io/portfolio.github.io/ 
 
 Technologies Used 🛠️
-• HTML
-• CSS
-• JavaScript (if applicable)
+- HTML
+- CSS
+- JavaScript (if applicable)
 
 ## Contact 📩
 
