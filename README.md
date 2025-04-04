@@ -3,7 +3,6 @@
 ## Welcome to my portfolio website! This project showcases my work, skills, and experience in a clean and responsive design.
 
 Features ✨
-
 ✔️ Fully Responsive – Optimized for all screen sizes.
 ✔️ Custom Typography – Includes external fonts for a unique look.
 ✔️ Modern Design – Aesthetic and functional user interface.
