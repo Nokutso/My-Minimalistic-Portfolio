@@ -14,6 +14,7 @@
 }
 
 html {
+    margin:0;
     scroll-behavior: smooth;
     scroll-padding-top: 125px;
 }
@@ -140,39 +141,46 @@ nav ul a:last-child {
     align-items: flex;
     gap: 2rem;
     text-align: center;
+    box-sizing: border-box;
 }
 .grouped h2{
     font-family: Boldonse;
 }
 
-#p_languages{
+#p_languages, #education, #projects{
     display: flex;
     flex-direction: column;
+}
+
+#p_languages{
     border: 4px solid #6A7B76;
 }
 
 #education{
-    display: flex;
-    flex-direction: column;
     border: 4px solid #8B9D83;
-
 }
 
 #projects{
-    display: flex;
-    flex-direction: column;
     border: 4px solid #439A86;
 }
+
 #projects div{
-    padding-bottom: 10px;
+    padding-bottom: 0;
 }
 
-
-@media only screen and (min-width:1200px){
+@media only screen and (min-width:769px){
     .grouped{
-        margin-left: 55px;
+        justify-content: center; /* center horizontally */
+        align-items: stretch;    /* make all sections same height */
+        margin: 0 auto;
+        width: 100%;
+        padding: 1rem;
     }
 
+    .grouped section {
+        flex: 1; /* each section takes equal space */
+        min-width: 0; /* prevent overflow */
+    }
 
     #p_languages{
         padding: 20px;
@@ -195,12 +203,9 @@ nav ul a:last-child {
         overflow-x: auto;  
         scroll-snap-type: x mandatory; 
         scroll-behavior: smooth; 
-        padding: 0; 
         margin: 0;
         gap: 2rem;  
-        padding: 1rem;
-        width: 100%;
-
+        padding: 1rem 0;
     }
 
     .grouped::-webkit-scrollbar {
@@ -210,9 +215,8 @@ nav ul a:last-child {
     .grouped section {
         flex: 0 0 auto; 
         width: 100%;  
-        scroll-snap-align: start;  
-        margin-right: 1rem;  
-        min-width: 200px;
+        scroll-snap-align: start;   
+        min-width: 250px;
         box-sizing: border-box;
     }
 }
@@ -233,6 +237,7 @@ nav ul a:last-child {
 #interests h2{
     padding-right: 10%;
     font-size: 2rem;
+    text-align: start;
 }
 
 #interests div{
@@ -247,16 +252,13 @@ nav ul a:last-child {
 @media only screen and (min-width:1200px)
 {
     #interests{
-        background-color: #896279;
-        text-align: center;
-        margin-bottom: 50px;
-        margin-left: 270px;
-        width: 900px;
         box-sizing: border-box;
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
-        align-items: flex-end;
+        justify-content: center; /* center horizontally */
+        align-items: stretch;    /* make all sections same height */
+        margin: 0 auto;
+        max-width: 1200px; 
+        width: 100%;
+        padding: 1rem;
     }
 }
 
@@ -314,11 +316,12 @@ nav ul a:last-child {
 @media only screen and (min-width:1200px)
 {
     #contact{
-        width: 600px;
-        margin-bottom: 5%;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        margin-left: 420px;
+        justify-content: center; /* center horizontally */
+        align-items: stretch;    /* make all sections same height */
+        margin: 0 auto;
+        max-width: 1200px; 
+        width: 100%;
+        padding: 5rem;
     }
 
     #download{
@@ -357,6 +360,7 @@ footer{
 @media only screen and (min-width:1200px)
 {
     footer{
+        margin-top: 5%;
         margin-bottom: 120px;
         font-size: 1.1rem;
     }
@@ -365,6 +369,7 @@ footer{
 @media screen and (min-width:510px) and (max-width:1199px)
 {
     footer{
+        margin-top: 5%;
         margin-bottom: 120px;
         font-size: 1.1rem;
     }
