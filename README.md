@@ -7,10 +7,6 @@
 - Custom Typography – Includes external fonts for a unique look.
 - Modern Design – Aesthetic and functional user interface.
 
-**Project Context 📝**
-
-Unfortunately, my peer group is inactive, so I decided to focus on my part and continue developing this project independently.
-
 ## Live Preview 🚀
 
 🔗 https://nokutso.github.io/portfolio.github.io/ 
