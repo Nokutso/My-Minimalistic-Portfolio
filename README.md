@@ -9,7 +9,7 @@
 
 ## Live Preview 🚀
 
-🔗 https://nokutso.github.io/portfolio.github.io/ 
+🔗 https://nokutso.github.io/My-Minimalistic-Portfolio/ 
 
 Technologies Used 🛠️
 - HTML
